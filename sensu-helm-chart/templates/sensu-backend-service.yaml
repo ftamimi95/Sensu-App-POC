@@ -124,7 +124,6 @@ spec:
           limits:
             memory: 2048M
             cpu: 1.0
-
       - name: sensu-agent
         image: sensu/sensu:5.16.1
         command: ["/opt/sensu/bin/sensu-agent", "start", "--log-level=debug", "--insecure-skip-tls-verify"]
