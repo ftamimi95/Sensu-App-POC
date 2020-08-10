@@ -39,7 +39,7 @@ spec:
     targetPort: 3000
 
 ---
-apiVersion: apps/v1
+apiVersion: apps/v1beta1
 kind: deployment
 metadata:
   name: sensu-backend
